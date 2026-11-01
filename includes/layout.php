@@ -1,0 +1,1 @@
+<body><header><a class="brand" href="#"><span class="brand-mark" aria-hidden="true">A/</span><span>Accountability</span></a><span class="local">Your daily training log</span><div id="account-actions"></div></header><main id="app"><p>Opening your workspace…</p></main><div id="status" role="status" aria-live="polite"></div><dialog id="editor"></dialog>
