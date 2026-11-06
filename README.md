@@ -18,15 +18,23 @@ Open http://127.0.0.1:8765. Use localhost or HTTPS for Web Crypto. PHP 8.1+ with
 
 Click the **Demo-only credentials** row to fill both fields, then **Sign in**. A fresh browser receives three synthetic accountability partners and goals demonstrating current streaks, past streaks, sparse activity, and empty states. Existing chosen passwords are preserved unless you explicitly confirm switching to demo credentials.
 
+![Sign-in screen with demo credentials ready to fill](docs/screenshots/sign-in.png)
+
 ## Find partners by goal
 
 **Goals across your circle** lists active goals and how many distinct partners have them. Matching ignores case, spaces, and special characters, while preserving the original display names. Duplicate matching goals within one partner count once.
+
+![Partner circle with shared goals, streaks, and an empty goal](docs/screenshots/partners.png)
 
 Click a goal to filter the partner cards. Matching partners remain prominent and switch to that goal’s carousel panel; other partners stay visible but gray out. Only one goal can be selected at a time. Choosing another replaces the current filter; clicking the selected goal again clears it. The **Filter on** bar displays the selection and a prominent **× Clear filters** button. Archived goals are excluded.
 
 Click a partner card’s name, summary, or empty space to open its workspace. Carousel controls and the scrollable heatmap retain their own interactions; the Open workspace button also supports keyboard access.
 
+![Strength training selected, with matching and muted partner cards](docs/screenshots/goal-filter.png)
+
 ## Check in and look back
+
+![Workspace in Days view, with the streak, day strip, saved note, and reflection editor](docs/screenshots/workspace.png)
 
 - The workspace is divided into **Progress**, **Choose a day**, and **Notes & reflection**, with quick section links and a prominent selected date. Saved notes and the new-note composer have distinct visual treatments.
 - Add, edit, archive, restore, or delete goals in each partner’s workspace.
@@ -34,6 +42,10 @@ Click a partner card’s name, summary, or empty space to open its workspace. Ca
 - Use **Months** for a zoomed-out year view with monthly check-in and note counts. Empty months remain visible. Select a month to open its days.
 - Use **Days** to select a date, including days without activity. A subtle vertical divider follows each Sunday, grouping the strip into Monday–Sunday weeks.
 - Check in explicitly or let a saved note mark the day. The note checkbox defaults on. Deleting a note leaves its check-in intact.
+
+### Month timeline
+
+![Month overview with monthly check-in meters and note counts](docs/screenshots/month-timeline.png)
 
 ## Rich notes and images
 
@@ -51,6 +63,8 @@ Rich HTML is sanitized on save and display. Only approved formatting, safe links
 
 Tags belong to a goal and can be attached to multiple notes. Notes can have several tags or no tags.
 
+![Manage tags dialog for renaming, recoloring, and removing goal tags](docs/screenshots/manage-tags.png)
+
 - Search existing tags in the compact picker, choose several, or type a new name and press Enter. New tags receive a consistent default color.
 - Use **Manage tags** beside the calendar legend to create tags, rename them, choose colors, and see how many notes use each tag.
 - Rename/color changes update every use of the tag. Removing a tag asks for confirmation and removes only that tag’s references; note content stays intact.
@@ -60,6 +74,8 @@ Tags belong to a goal and can be attached to multiple notes. Notes can have seve
 ## A separate image library for each partner
 
 Open **Image library** from a partner workspace to see that partner’s uploaded images. From the partner-selection screen, the same control first asks you to choose a partner.
+
+![A partner image library before any uploads](docs/screenshots/image-library.png)
 
 - Each library has its own random capability key and isolated server directory.
 - A thumbnail shows the number of saved notes using the image.
