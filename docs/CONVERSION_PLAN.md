@@ -1,5 +1,6 @@
 # Accountability App — Conversion Plan (from Postop)
 
+> **Implementation update (2026-11-06):** Implemented at the user’s request. The planning-only constraints below describe the earlier documentation phase. See [implementation decisions and verification](./IMPLEMENTATION.md).
 > **Status:** Planning only. Do **not** implement, clone, migrate data, bump dependencies, commit, push, or open a PR from this document.
 >
 > **Source inspected (read-only, local):** `/Users/wengffung/dev/web/weng/app/postop` (GitHub reference: https://github.com/Siphon880gh/postop).

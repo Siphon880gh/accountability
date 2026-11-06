@@ -1,5 +1,6 @@
 # Accountability App — Demo Account Seed Plan
 
+> **Implementation update (2026-11-06):** Implemented at the user’s request. The planning-only constraints below describe the earlier documentation phase. See [implementation decisions and verification](./IMPLEMENTATION.md).
 > **Status:** Planning only. Do **not** seed IndexedDB, create accounts, or change application code from this document.
 >
 > **Companion:** [`CONVERSION_PLAN.md`](./CONVERSION_PLAN.md)
